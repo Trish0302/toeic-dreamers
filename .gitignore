@@ -1,0 +1,7 @@
+# Local Netlify folder
+.netlify
+
+# node modules files
+node_modules
+
+assets/video

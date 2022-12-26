@@ -1,0 +1,269 @@
+html,
+body {
+    position: relative !important;
+    height: 100%;
+}
+
+.container {
+    margin-top: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 60%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.swiper {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+    color: #fff;
+    font-size: 40px;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    width: 50px;
+    height: 60px;
+    background-color: #12687577;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #12687577 !important;
+}
+
+.container {
+    margin-top: 150px !important;
+}
+
+.navbar-brand img {
+    object-fit: cover;
+}
+
+.video-description {
+    letter-spacing: 0.1px;
+}
+
+.video-content video {
+    border-radius: 10px;
+    box-shadow: 5px 8px 10px #ccc;
+}
+
+.video-list-wrapper {
+    height: 360px;
+    overflow-y: auto;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 10px rgba(11, 29, 37, 0.281);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #55a0a8e7;
+}
+
+.video-title h4 {
+    line-height: 34px;
+}
+
+.video-list-item {
+    gap: 10px;
+    cursor: pointer;
+}
+
+.video-list-item:hover {
+    background-color: rgba(183, 188, 190, 0.281) !important;
+}
+
+.video-list-item.active {
+    background-color: rgba(57, 156, 202, 0.281) !important;
+}
+
+.swiper-wrapper {
+    margin-bottom: 40px !important;
+}
+
+.icon-wrapper {
+    gap: 30px;
+}
+
+.contact li a {
+    text-decoration: underline;
+}
+
+.footer .logo .logo-wrapper {
+    height: 200px;
+    width: 200px;
+}
+
+.footer .logo .logo-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.footer .container {
+    margin-top: 10px !important;
+}
+
+.quick-access ul {
+    list-style: none;
+    text-align: left;
+}
+
+@media (max-width: 768px) {
+    nav form {
+        display: flex !important;
+        gap: 5px;
+        margin: 0 15px;
+    }
+
+    nav input {
+        flex: 3 !important;
+    }
+
+    nav button {
+        flex: 1 !important;
+    }
+
+    .swiper-slide img {
+        width: 100%;
+    }
+
+    .swiper-button-prev::after,
+    .swiper-button-next::after {
+        color: #fff;
+        font-size: 15px;
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next {
+        width: 20px;
+        height: 30px;
+        background-color: #12687577;
+    }
+
+    .swiper-wrapper {
+        margin-bottom: 40px !important;
+    }
+
+}
+
+@media (max-width: 992px) {
+
+    .video-list-title {
+        margin-top: 20px;
+        margin-bottom: 30px !important;
+        padding-top: 30px;
+        border-top: 1px solid #ccc;
+        text-align: center;
+    }
+
+    .video-content video {
+        height: auto !important;
+        margin-bottom: 0 !important;
+    }
+
+    .video-title {
+        margin-top: 20px !important;
+    }
+
+    nav {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+
+    .navbar-collapse.show {
+        height: 100%;
+    }
+
+    .navbar-brand {
+        display: none;
+    }
+
+    .navbar-brand img {
+        height: 38px;
+        width: 38px;
+        object-fit: cover;
+    }
+
+    .navbar-collapse {
+        height: 100vh !important;
+    }
+
+    nav button:focus {
+        outline: none;
+    }
+
+    nav ul li {
+        border-bottom: 1px rgb(92, 92, 92) solid;
+        margin: 10px 0;
+    }
+
+    nav ul li:first-child {
+        border-top: 1px rgb(92, 92, 92) solid;
+    }
+
+    .navbar-toggler {
+        width: 100% !important;
+    }
+
+    .navbar-toggler-icon {
+        display: inline-block;
+        height: 100%;
+        top: 0;
+        right: 15px;
+    }
+
+    .quick-access h4 {
+        padding-top: 30px;
+        border-top: 1px solid #dee2e6 !important;
+    }
+}
+
+@media (min-width: 992px) {}
